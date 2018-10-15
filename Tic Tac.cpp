@@ -279,7 +279,7 @@ int main()
 			system("cls");
 			system("color f6");
 			printf("\n\nMatch number %d between %s and %s.\n\nMATCH RESULS:\n",mc++,s1,s2);
-			printf("\n********MATCH DRAW********\n\nSERIES RESULTS:\n",s1,s2);
+			printf("\n********MATCH DRAW********\n\nSERIES RESULTS:\n");
 			if(p1>p2)
 			printf("\n\n%s (PLAYER 1) leads by (%d-%d)\n",s1,p1,p2);
 			else if(p1<p2)
